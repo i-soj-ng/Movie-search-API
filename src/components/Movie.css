@@ -1,0 +1,80 @@
+.movie_detail {
+  background-color: black;
+  height: 1000px;
+  position: relative;
+}
+
+.movie_detail .back_image {
+  max-width: 512px;
+  height: 370px;
+  overflow: hidden;
+  position: relative;
+}
+
+.back_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.movie_detail .info_box {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  position: absolute;
+  top: 290px;
+}
+
+.movie_title {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.movie_title h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.movie_title p {
+  margin-top: 3px;
+}
+
+.movie_info {
+  margin-left: 20px;
+}
+
+.movie_info h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.infos {
+  display: flex;
+}
+
+.infos .runtime, .rating {
+  margin-top: 5px;
+  margin-right: 130px;
+}
+
+.infos .like {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.summary_box {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.summary_box h3 {
+  margin-top: 6px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.summary_box p {
+  margin-top: 8px;
+}
